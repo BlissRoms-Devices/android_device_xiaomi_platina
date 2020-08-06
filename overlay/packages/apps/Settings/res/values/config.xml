@@ -13,4 +13,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Enable Manual Sim Provisioning -->
     <bool name="config_enableManualSubProvisioning">true</bool>
+    
+    <!-- Battery Health -->
+    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
