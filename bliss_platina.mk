@@ -31,6 +31,7 @@ $(call inherit-product, device/xiaomi/platina/device.mk)
 
 # Inherit some common Bliss ROM stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
 BLISS_BUILDTYPE=OFFICIAL
 
 # Inherit AOSP product configuration
