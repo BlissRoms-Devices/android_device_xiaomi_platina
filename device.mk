@@ -31,7 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/ANXCamera/config.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/anx-camera/anx-camera.mk)
 
 # Device Path
 DEVICE_PATH := device/xiaomi/platina
